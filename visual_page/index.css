@@ -15,7 +15,7 @@ body {
     width: 400px;
     height: 620px;
     border-radius: 20px;
-    background-color: aliceblue;
+    background-color: rgb(13, 3, 69);
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(78, 49, 49);
@@ -29,6 +29,7 @@ body {
     align-content: center;
     height: 10%;
     /* border: 2px solid red; */
+    color: wheat;
 }
 
 .screen {
@@ -39,6 +40,27 @@ body {
     padding: 5px;
     box-sizing: border-box;
     overflow-y: auto;
+    background-color: aliceblue;
+    
+}
+
+.msg-box{
+    border: 1px solid black;
+    width: 70%;
+    min-height: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 13px;
+    text-align: justify;
+}
+
+.user{
+    margin-top: 15px;
+    transform: translate(42%);
+}
+
+.ai{
+    margin-top: 15px;
 }
 
 .bottom {
